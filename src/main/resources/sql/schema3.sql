@@ -1,0 +1,2 @@
+ALTER TABLE `order`
+ADD COLUMN `version` BIGINT NULL DEFAULT 0 AFTER `uuid`;
